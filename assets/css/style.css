@@ -270,7 +270,7 @@ button {
   align-items: center;
 }
 
-.nav__link {
+.nav__item{
   display: flex;
   align-items: center;
   padding: var(--sp-0-75) var(--sp-1);
@@ -278,7 +278,7 @@ button {
   transition: color .3s ease-in-out;
 }
 
-.nav__link:hover {
+.nav__item:hover {
   color: var(--primary-color);
 }
 
