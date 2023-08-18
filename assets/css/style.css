@@ -27,8 +27,8 @@
   --card-color:hsl(61, 81%, 60%); 
 
   /* Fonts and typography */
-  --body-font: "Open Sans", sans-serif;
-  --title-font: "Poppins", sans-serif;
+  --body-font: 'Montserrat', sans-serif;
+  --title-font: 'Ubuntu', sans-serif;;
   --big-font: 2rem;
   --medium-font: 1.5rem;
   --normal-font: 1rem;
@@ -103,11 +103,10 @@ body {
 
 h1,
 h2,
-h3,
 h4 {
   font-family: var(--title-font);
   color: var(--bg-color);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-bold);
 }
 
 ul,
@@ -230,6 +229,7 @@ button {
   display: flex;
   align-items: center;
   padding: var(--sp-0-75) var(--sp-1);
+  font-weight: var(--font-bold);
 }
 
 .nav__logo {
@@ -348,8 +348,10 @@ main {
   
 }
 
-.products__title {
+.product__title {
   margin-bottom: var(--sp-2);
+  font-weight: 800;
+  
 }
 
 .product {

@@ -21,7 +21,7 @@ function products(products) {
             </button>
             <span class="product__price">$${product.price}</span>
             <span class="product__stock">Disponibles: ${product.quantity}</span>
-            <span class="product__shirt">shirt</span>z
+            <span class="product__shirt">shirt</span>
             <span class="product__sources">Medidas <br> <span class="product__sources1">XS,S,M,L,XL,XXL</span></span>
             <span class="product__colors">colores
                 <ul class="product__colors-1">
