@@ -547,6 +547,7 @@ background: #9b908a;
   align-items: center;
   gap: var(--sp-0-5);
   font-size: var(--normal-font);
+  color: var(--bg-color);
 }
 
 .article {
@@ -623,7 +624,8 @@ background: #9b908a;
 
 .cart__btn.btn--buy{
   background-color: var(--bg-color);
-  color: var(--title-color);
+  color: var(--card-color);
+  font-weight: 800;
 }
 
 .btn--buy {
