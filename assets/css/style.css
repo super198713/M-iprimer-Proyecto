@@ -274,7 +274,7 @@ button {
   display: flex;
   align-items: center;
   padding: var(--sp-0-75) var(--sp-1);
-  color: var(--title-color);
+  color: var(--card-color);
   transition: color .3s ease-in-out;
 }
 
